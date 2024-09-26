@@ -15,7 +15,7 @@ export const POST = async (request: NextRequest) => {
     return NextResponse.json(
       {
         ok: false,
-        message: "Username or password is incorrect",
+        message: "Username or Password is incorrect",
       },
       { status: 400 }
     );
